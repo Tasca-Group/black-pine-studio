@@ -1,0 +1,54 @@
+@import "tailwindcss";
+
+@theme {
+  /* Primary Colors */
+  --color-pine: #44553D;
+  --color-sage: #8B9A7B;
+  --color-forest: #2D332A;
+
+  /* Secondary Colors */
+  --color-brown: #5C3D28;
+  --color-sand: #9A8570;
+
+  /* Accent */
+  --color-gold: #A08955;
+
+  /* Backgrounds */
+  --color-warm-white: #FAFAF7;
+  --color-beige: #F2EDE6;
+  --color-cream: #E8E2D8;
+
+  /* Text */
+  --color-near-black: #2D332A;
+  --color-dark-gray: #6B6560;
+
+  /* Fonts */
+  --font-heading: "DM Serif Display", serif;
+  --font-body: "DM Sans", sans-serif;
+}
+
+body {
+  font-family: var(--font-body);
+  color: var(--color-near-black);
+  background-color: var(--color-warm-white);
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: var(--font-heading);
+  letter-spacing: -0.02em;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+::selection {
+  background-color: var(--color-sage);
+  color: white;
+}
+
+* {
+  transition-timing-function: cubic-bezier(0.25, 0.1, 0.25, 1);
+}
