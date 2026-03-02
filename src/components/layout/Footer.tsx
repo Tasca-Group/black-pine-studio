@@ -14,8 +14,13 @@ export function Footer() {
               Black Pine
             </Link>
             <p className="mt-4 text-sm text-dark-gray leading-relaxed">
-              Ihre Agentur für Webentwicklung, Design, Marketing und Business-Beratung.
+              Digital Solutions, Web Design &amp; UI/UX Development.
             </p>
+            <div className="mt-4 space-y-1 text-xs text-dark-gray/70">
+              <p>Owner: Marcel Tasca</p>
+              <p>CF: TSCMCL03M24Z112Z</p>
+              <p>{CONTACT_LOCATION}</p>
+            </div>
           </div>
 
           {/* Leistungen */}
