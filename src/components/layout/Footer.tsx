@@ -67,6 +67,7 @@ export function Footer() {
               Kontakt
             </h3>
             <ul className="space-y-3 text-sm text-dark-gray">
+              <li className="font-medium text-forest">Marcel Tasca</li>
               <li>
                 <a href={`mailto:${CONTACT_EMAIL}`} className="transition-colors duration-300 hover:text-forest">
                   {CONTACT_EMAIL}
